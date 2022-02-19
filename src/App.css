@@ -22,12 +22,174 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  border:solid black;
 }
-
+body{
+  background-color:rgb(238, 250, 127);
+}
 .App-link {
   color: #61dafb;
 }
+.btndsns{
+  background-color:rgb(7, 124, 70);
+  color:white;
+  border:none;
+  padding:10px;
+  border:round;
+  border: solid 3px rgb(7, 124, 70);
+  border-radius:8px;
+  display:inline block;
+  
+  
+}
+.btndsnsn{
+  background-color:red;
+  color:white;
+  border:none;
+  padding:-10px;
+  border:round;
 
+  border-radius:8px;
+  display:inline block;
+  
+  
+}
+.btnedtdsnss{
+  background-color:orange;
+  color:white;
+  border:none;
+  padding:-10px;
+  border:round;
+
+  border-radius:8px;
+  display:inline block;
+}
+.bckthmbtnsdsns{
+  background-color:blue;
+  color:white;
+  border:none;
+  padding:4px;
+  border:round;
+  border: solid 3px blue;
+  border-radius:8px;
+  display:inline block;
+  margin-left:4px;
+}
+.webbnrdsns{
+margin-top:-17px;
+
+}
+.crtdsn{
+  width:320px;
+  height:405px;
+  padding:6px;
+text-align:center;
+margin-bottom:20px;
+margin-left:300px;
+}
+.hmbtnsdsnss {
+  background:none;
+  border: solid 3px white;
+  border-radius:8px;
+  display:inline block;
+  color:white;
+  cursor:pointer;
+  padding:12px;;
+  font-weight: bold;
+  margin-top:60px;
+
+}
+.hmbtnsdsnss:hover{
+  background-color:rgb(241, 191, 191);
+}
+.mdltxtdsns{
+  margin-top:-450px;
+  color:rgb(117, 44, 44);
+ 
+}
+.mdltxtbtndsns{
+  margin-top:-380px;
+  margin-left:200px;
+  color:rgb(0, 0, 0);
+ 
+}
+.btndsnscrt{
+  background-color:rgb(21, 18, 161);
+  color:white;
+  border:none;
+  padding:4px;
+  border:round;
+  border: solid 3px rgb(21, 18, 161);
+  border-radius:8px;
+  display:inline block;
+
+}
+.middlsddsns{
+  margin-top:300px;
+}
+.abtdsns{
+  border: solid 4px rgb(151, 51, 4);
+}
+.srchbrdsns{
+  margin-top:12px;
+
+}
+.crtmdldsnss{
+  width:350px;
+  height:400px;
+  margin-left:40px;
+}
+.btnmdldsnss{
+  background-color:green;
+  color:white;
+  border: none;
+  font-family:"Calibri";
+}
+.sdbrdsns ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: rgb(214, 77, 77);
+  margin-top:-170px;
+}
+.sdbrdsns li  {
+  display: block;
+  padding: 8px 16px;
+  text-decoration: none;
+  color:white;
+
+}
+.sdbrdsns a{
+  text-decoration:none;
+}
+
+
+.sdbrdsns li a:hover {
+  background-color: rgb(184, 36, 36);
+  color: white;
+}
+
+.navbardsns ul{
+  background-color: rgb(42, 138, 42);
+  text-align:left;
+  overflow: hidden;
+  list-style-type: none;
+
+}
+.navbardsns li{
+float:left;
+ 
+}
+.navbardsns li{
+  display:block;
+  color:white;
+ text-decoration: none;
+ padding: 14px 16px;
+}
+li:hover{
+  background-color: rgb(80, 211, 80);
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
